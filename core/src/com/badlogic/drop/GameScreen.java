@@ -64,7 +64,7 @@ public class GameScreen implements Screen {
 
 	private void spawnRaindrop() {
 		Rectangle raindrop = new Rectangle();
-		raindrop.x = MathUtils.random(0, 800-65);
+		raindrop.x = MathUtils.random(0, 800-64);
 		raindrop.y = 480;
 		raindrop.width = 65;
 		raindrop.height = 65;
